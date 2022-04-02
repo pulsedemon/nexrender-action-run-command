@@ -7,7 +7,7 @@ module.exports = (job, settings, { command }, type) => {
         file = job.output;
         command = command.replace('{file}', file)
         console.log(`running command: \n\t ${command}`)
-        
+
         command_parts = command.split(' ')
         command = spawn(command_parts[0], command_parts.slice(1));
 
