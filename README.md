@@ -19,7 +19,7 @@ npm i nexrender-action-run-command -g
         "postrender": [
             {
                 "module": "nexrender-action-run-command",
-                "command": "aws s3 cp {file} s3://bucket-name/ --profile dv",
+                "command": "aws s3 cp {file} s3://bucket-name/ --profile profilename",
             }
         ]
     }
