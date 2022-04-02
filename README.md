@@ -28,4 +28,4 @@ npm i nexrender-action-run-command -g
 
 ## Information
 
-* `command` required argument - file path out output file can be passed with `{file}`
+* `command` required argument - file path of output file can be passed with `{file}`
