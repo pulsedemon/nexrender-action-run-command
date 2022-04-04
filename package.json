@@ -2,22 +2,21 @@
     "name": "nexrender-action-run-command",
     "description": "Run shell commands as a nexrender action",
     "author": "Michael Squashic",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "index.js",
-    "license" : "MIT",
+    "license": "MIT",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/pulsedemon/nexrender-action-run-command.git"
+        "type": "git",
+        "url": "https://github.com/pulsedemon/nexrender-action-run-command.git"
     },
     "bugs": {
-      "url": "https://github.com/pulsedemon/nexrender-action-run-command/issues"
+        "url": "https://github.com/pulsedemon/nexrender-action-run-command/issues"
     },
     "keywords": [
-      "nexrender",
-      "action",
-      "command",
-      "shell",
-      "cli"
+        "nexrender",
+        "action",
+        "command",
+        "shell",
+        "cli"
     ]
-  }
-  
+}
