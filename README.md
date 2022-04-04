@@ -1,5 +1,9 @@
 # Action: Run Command
 
+![npm](https://img.shields.io/npm/v/nexrender-action-run-command)
+![npm](https://img.shields.io/npm/dw/nexrender-action-run-command)
+[![install size](https://packagephobia.com/badge?p=nexrender-action-run-command)](https://packagephobia.com/result?p=nexrender-action-run-command)
+
 Run shell commands
 
 ## Installation
