@@ -10,7 +10,7 @@ npm i nexrender-action-run-command -g
 
 ## Usage
 
-### Use aws cli to upload the output file to s3
+### Use aws cli to upload the output file to s3 - postrender
 
 ```js
 // job.json
@@ -26,6 +26,24 @@ npm i nexrender-action-run-command -g
 }
 ```
 
+### list directory - prerender
+
+```js
+// job.json
+{
+    "actions": {
+        "prerender": [
+            {
+                "module": "nexrender-action-run-command",
+                "command": "ls -al /path/to/some/directory",
+            }
+        ]
+    }
+}
+```
+
 ## Information
+
+This should be able to run most commands, but it hasn't been heavily tested.  If you run into an issue, let me know.
 
 * `command` required argument - file path of output file can be passed with `{file}`

@@ -8,6 +8,16 @@
     "repository": {
       "type": "git",
       "url": "https://github.com/pulsedemon/nexrender-action-run-command.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/pulsedemon/nexrender-action-run-command/issues"
+    },
+    "keywords": [
+      "nexrender",
+      "action",
+      "command",
+      "shell",
+      "cli"
+    ]
   }
   
