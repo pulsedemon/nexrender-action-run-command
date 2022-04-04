@@ -2,7 +2,7 @@
     "name": "nexrender-action-run-command",
     "description": "Run shell commands as a nexrender action",
     "author": "Michael Squashic",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "main": "index.js",
     "license": "MIT",
     "repository": {
