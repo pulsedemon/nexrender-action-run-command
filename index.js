@@ -16,7 +16,7 @@ module.exports = (job, settings, { command }, type) => {
 
     return new Promise((resolve, reject) => {
         const commandParts = command.split(' ')
-        command = spawn(commandParts[0], commandParts.slice(1));
+        command = spawn(commandParts[0], commandParts.slice(1), { shell: true });
 
         command.on('close', (code, signal) => {
             resolve(job)
